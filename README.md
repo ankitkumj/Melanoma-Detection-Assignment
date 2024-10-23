@@ -63,7 +63,12 @@ The break down of the final provided CNN architecture step by step:
 
 ## Model Evaluation
 
-![Model Evaluation](./model_evaluation.png)
+Observations:
+- The ultimate model showcases well-balanced performance, displaying no signs of underfitting or overfitting.
+- The implementation of class rebalancing has notably enhanced the model's performance across both training and validation datasets.
+- Following 44 epochs, the final model attains an accuracy of 87% on the training set and approximately 83% on the validation set.
+- The narrow divergence between training and validation accuracies underscores the robust generalization capability of the final CNN model.
+- The addition of batch normalization failed to enhance both training and validation accuracy.
 
 ## Technologies Used
 
