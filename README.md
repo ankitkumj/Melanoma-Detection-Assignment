@@ -24,7 +24,7 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 
 The dataset comprises 2357 images depicting malignant and benign oncological conditions, sourced from the International Skin Imaging Collaboration (ISIC). These images were categorized based on the classification provided by ISIC, with each subset containing an equal number of images.
 
-![datasetgraph](./class_distribution.png)
+![datasetgraph](./TypeDistribution.png)
 
 In order to address the challenge of class imbalance, the Augmentor Python package (https://augmentor.readthedocs.io/en/master/) was employed to augment the dataset. This involved generating additional samples for all classes, ensuring that none of the classes had insufficient representation.
 
