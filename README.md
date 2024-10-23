@@ -30,7 +30,7 @@ In order to address the challenge of class imbalance, the Augmentor Python packa
 
 ## Pictorial representation of skin types
 
-![skincancertypes](./skin_cancer_types.png)
+![skincancertypes](./Cancer_type.png)
 
 The aim of this task is to assign a specific class label to a particular type of skin cancer.
 
